@@ -1,7 +1,8 @@
 % 課題１　標本化間隔と空間解像度
 % 画像をダウンサンプリングして（標本化間隔を大きくして）表示する．
 
-clear; % 変数のオールクリア
+clear all; % 変数のオールクリア
+close all; % 変数のオールクローズ
 
 ORG=imread('boby.png'); % 原画像の入力
 imagesc(ORG); axis image; % 画像の表示
